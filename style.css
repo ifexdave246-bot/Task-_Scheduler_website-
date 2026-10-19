@@ -1,0 +1,142 @@
+*{ box-sizing: border-box;}
+    body {
+      background: #f5f7fb;
+      padding: 28px, 14px;
+      color: #202938;
+      margin: 0;
+      font-family: Arial, sans-serif;  
+       
+    }
+
+    .container{
+      max-width: 800px ;
+      margin: 0 auto;
+      padding: 20px;
+      width: 90%;
+      box-sizing: border-box;
+     
+    }
+
+    .container2{
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 30px;
+      width: 90%;
+      box-sizing: border-box;
+    
+    }
+
+    h1{
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+
+    .subtitle{
+      color: #667085;
+      margin: 0 0 26px;
+    }
+
+    h2{
+      margin: 0 0 16px;
+      font-size: 1.3rem;
+    }
+
+    h3{
+      margin: 0 0 6px;
+      font-size: 1.1rem;
+    }
+
+    .box{
+      background: white;
+      border: 1px solid #e1e7e7;
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 22px;
+      box-shadow: 0 2 px 8px rgba(20, 35, 60, .04);
+    }
+
+    .field{
+      margin-bottom: 15px;
+    }
+    
+    label{
+      display: block;
+      font-weight: bold;
+      font-size: .92rem;
+      margin-bottom: 5px;
+    }
+    
+    input {
+      width: 100%;
+      padding: 11px;
+      border: 1px solid #d5d5d5;
+      font: inherit;
+      background: white;
+      border-radius: 10px;
+    }
+    input:focus{
+      border-color: #2563eb;
+      outline: .9px solid #007bff;
+      border-color: #007bff;
+      box-shadow: 0 0 5px rgba(4, 119, 242, 0.4);
+    }
+    .tasks_input{
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1));
+      gap: 12px;
+    }
+
+    button{
+      border: 0;
+      border-radius: 6px;
+      padding: 11px 14px;
+      font: inherit;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .create:hover{
+      background-color: #003083;
+      opacity: .88;
+    }
+    .create {
+      background: #2563eb;
+      color: white;
+      border-radius: 12px;
+
+    }
+
+    .guide{
+      color: #667085;
+      font-size: .9rem;
+      line-height: 1.5;
+    }
+    .notice{
+      padding: 11px 13px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      background: #eff6ff;
+      color: hsl(224, 69%, 37%);
+      font-size: .92rem;
+    }
+
+    footer {
+      text-align: center;
+      color: #5f6f75;
+      padding: 20px;
+      margin-top: 0px;
+    
+    }
+
+    @media (max-width: 620px){
+      body{
+        padding: 20px 10px;
+      }
+      .box {
+        padding: 15px;
+      }
+      .tasks_input{
+        grid-template-columns: 1fr;
+      }
+      
+    }

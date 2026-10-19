@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK SCHEDULER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container2">
+    <main id="container">
+        <header>
+            <h1>My Task Scheduler</h1>
+            <p class="subtitle">Organise your tasks by title and date</p>
+        </header>
+
+        <section class="box" id="rectangle box">
+            <h2>Create a Task Title</h2>
+            <p class="guide">Create one collection with a title and date, then add 6-10 individual tasks to it. You msut
+                complete
+                every task
+                in
+                this collection before creating another collection. </p>
+            <div id="notice" class="notice">Finish all tasks in your current collection before creating
+                another task title.</div>
+
+
+            <form id="form">
+                <div class="field">
+                    <label for="date" class="date">Date:</label>
+                    <input type="date" id="date" required><br>
+                </div>
+
+                <div class="field">
+                    <label for="task" class="task1">Task 1</label>
+                    <input type="task" id="task" required><br>
+                </div>
+
+                <div class="field">
+                    <label for="task" class="task">Task 2</label>
+                    <input type="task" id="task" required><br>
+                </div>
+
+                <div class="field">
+                    <label for="task" class="task1">Task 3</label>
+                    <input type="task" id="task" required><br>
+                </div>
+
+                <div class="field">
+                    <label for="task" class="task1">Task 4</label>
+                    <input type="task" id="task" required><br>
+                </div>
+
+                <div class="field">
+                    <label for="task" class="task1">Task 5</label>
+                    <input type="task" id="task" required><br>
+                </div>
+
+                <div class="field">
+                    <label for="task" class="task1">Task 6</label>
+                    <input type="task" id="task" required><br>
+                </div>
+                
+                <div id="task_name_fields" class="tasks_input"></div>
+                <button class="create" id="create" type="submit"> Create Tasks Collection</button>
+
+            </form>
+        </section>
+
+        <section id="dashboard" class="dashboard">
+            <h2>Current Task Collection</h2>
+            <p class="subtitle2">No active task collection. Create one above to get started.</p>
+        </section>
+
+        <section id="dashboard2">
+            <h2>Completed Task Collections</h2>
+            <div id="ending" class="ending"><p class="subtitle2">Completed collections will apear here, grouped with their title and task names.</p></div><br><br>
+
+
+        </section>
+
+        <hr>
+        <footer>
+            <p>&copy: Developed by Ifexdave Graphics Studio 2026</p>
+        </footer>
+    </main>
+    </div>
+
+</body>
+</html>
